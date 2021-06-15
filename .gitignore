@@ -1,0 +1,11 @@
+.changelog
+.DS_Store
+.env
+.eslintcache
+.secrets
+*.log
+*.tgz
+node_modules
+tmp
+
+packages/*/LICENSE

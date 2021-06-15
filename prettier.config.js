@@ -1,0 +1,1 @@
+module.exports = require('eslint-config-springworks/prettier.config')
