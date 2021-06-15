@@ -1,18 +1,21 @@
 {
-  "name": "eslint-config-springworks",
+  "name": "eslint-config-sw-in",
   "version": "1.0.0",
   "description": "Eslint and prettier configuration",
+  "author": "Mehul Bechra",
+  "license": "MIT",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SpringRole/eslint-config-sw"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  },
-  "devDependencies": {
+  "files": [
+    "index.js",
+    "prettier.config.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "prettier-config"
+  ],
+  "peerDependencies": {
     "eslint": "^7.28.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -21,9 +24,12 @@
     "eslint-plugin-prettier": "^3.4.0",
     "prettier": "^2.3.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SpringRole/eslint-config-sw.git"
   },
-  "author": "Springworks",
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/SpringRole/eslint-config-sw/issues"
+  },
+  "homepage": "https://github.com/SpringRole/eslint-config-sw#readme"
 }
