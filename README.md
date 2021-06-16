@@ -50,8 +50,8 @@ or `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: 'eslint-config-sw-in',
-}
+  extends: 'eslint-config-sw-in'
+};
 ```
 
 ### Prettier Config
@@ -60,6 +60,8 @@ This is how you can use or extend the `eslint-config-sw-in` prettier config in y
 app:
 
 ```js
-// prettier.config.js
-module.exports = require('eslint-config-sw-in/prettier.config')
+// .prettierrc.js
+module.exports = {
+  ...require('eslint-config-sw-in/prettier.config')
+};
 ```
