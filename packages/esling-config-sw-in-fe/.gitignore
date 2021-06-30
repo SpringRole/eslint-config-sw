@@ -2,7 +2,6 @@
 .DS_Store
 .env
 .eslintcache
-.jest-cache
 .secrets
 *.log
 *.tgz
