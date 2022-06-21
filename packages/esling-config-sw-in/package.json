@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sw-in",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Eslint and prettier configuration",
   "author": "Mehul Bechra",
   "license": "MIT",
@@ -16,13 +16,13 @@
     "prettier-config"
   ],
   "peerDependencies": {
-    "eslint": "^7.28.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "prettier": "^2.3.1"
+    "eslint": "~8.18.0",
+    "eslint-config-airbnb-base": "~15.0.0",
+    "eslint-config-prettier": "~8.5.0",
+    "eslint-plugin-import": "~2.26.0",
+    "eslint-plugin-node": "~11.1.0",
+    "eslint-plugin-prettier": "~4.0.0",
+    "prettier": "~2.7.1"
   },
   "repository": {
     "type": "git",

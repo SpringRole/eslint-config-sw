@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sw-in-fe",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Eslint and prettier configuration for frontend (react)",
   "author": "Mehul Bechra",
   "main": "index.js",
@@ -15,15 +15,15 @@
     "prettier-config"
   ],
   "peerDependencies": {
-    "eslint": "^7.29.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "prettier": "^2.3.2"
+    "eslint": "~8.18.0",
+    "eslint-config-airbnb": "~19.0.4",
+    "eslint-config-prettier": "~8.5.0",
+    "eslint-plugin-import": "~2.26.0",
+    "eslint-plugin-jsx-a11y": "~6.5.1",
+    "eslint-plugin-prettier": "~4.0.0",
+    "eslint-plugin-react": "~7.30.0",
+    "eslint-plugin-react-hooks": "~4.6.0",
+    "prettier": "~2.7.1"
   },
   "repository": {
     "type": "git",
